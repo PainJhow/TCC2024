@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+}
+
+.container{
+    font-family: "Source Sans 3", sans-serif;
+}
+
+
+.header{
+    background-image: linear-gradient(to right, #4b0000, #4b0082);
+    color: #fff;
+    height: 60px;
+    border-bottom: 5px solid #333;
+}
+
+.header .title{
+    padding: 0.5rem;
+}
+
+.header .title .main-title{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.header .title .sub-title{
+    font-size: 14px;
+}
+
+.header .title .sub-title span{
+    color: #999;
+}
+
+.header .a{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.link{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: -35px;
+    left: 47%;
+    width: 50px;
+    color: white;
+    background-image: linear-gradient(to right, #4b0082, #4b0000);
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 500ms linear;
+    box-shadow: 0px 2px 4px;
+}
+
+.link:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 5px 7px;
+}
+
+a:link {
+    text-decoration:none;
+    color: #fff;
+}
+
+a:visited {
+    text-decoration:none;
+    color: white;
+}
+
+.editor{
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.editor #html{
+    border-right: 1px solid #777;
+}
+
+.editor #css{
+    border-left: 20px solid #333;
+    border-right: 1px solid #777;
+}
+
+.editor #js{
+    border-left: 20px solid #333;
+}
+
+.code-box{
+    position: relative;
+    height: calc(50vh - 4.6rem);
+    border-top: 1px solid #4b0082;
+    border-bottom: 10px solid #4b0000;
+    overflow: hidden;
+}
+
+.preview{
+    position: relative;
+    height: calc(90vh - 30px);
+    background: #fff;
+    border-top: 10px ridge #4b0082;
+}
+
+.preview iframe{
+    width: 100%;
+    height: 100%;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #555;
+    border-radius: 20px;
+}

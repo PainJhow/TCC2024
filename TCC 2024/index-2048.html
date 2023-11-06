@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="3-2048/style.css">
+    <title>Hymperium - 2048 Game</title>
+</head>
+
+<body>
+
+    <header>
+        <header>
+            <div class="text">
+                <h1>Hymperium</h1>
+            </div>
+            <div class="titulo">
+                <h2>2048</h2>
+            </div>
+            <a href="index.html">
+                <botton class="btn-inicio">
+                    <span>Inicio</span>
+                </botton>
+            </a>
+        </header>
+    </header>
+
+
+  <div class="page">
+    <div class="score-container">
+        <div class="pontos">Pontos : <span id="current-score">0</span></div>
+        <div class="maior-pontos">Recorde : <span id="high-score">0</span></div>
+    </div>
+
+    <div class="game-container">
+        <div class="grid">
+            <div class="cell" data-row="0" data-col="0"></div>
+            <div class="cell" data-row="0" data-col="1"></div>
+            <div class="cell" data-row="0" data-col="2"></div>
+            <div class="cell" data-row="0" data-col="3"></div>
+            <div class="cell" data-row="1" data-col="0"></div>
+            <div class="cell" data-row="1" data-col="1"></div>
+            <div class="cell" data-row="1" data-col="2"></div>
+            <div class="cell" data-row="1" data-col="3"></div>
+            <div class="cell" data-row="2" data-col="0"></div>
+            <div class="cell" data-row="2" data-col="1"></div>
+            <div class="cell" data-row="2" data-col="2"></div>
+            <div class="cell" data-row="2" data-col="3"></div>
+            <div class="cell" data-row="3" data-col="0"></div>
+            <div class="cell" data-row="3" data-col="1"></div>
+            <div class="cell" data-row="3" data-col="2"></div>
+            <div class="cell" data-row="3" data-col="3"></div>
+        </div>
+    </div>
+
+    <div id="game-over">
+        Game Over!
+        <button id="restart-btn">Reiniciar?</button>
+    </div>
+  </div>
+
+    <script src="3-2048/index.js"></script>
+</body>
+
+</html>
